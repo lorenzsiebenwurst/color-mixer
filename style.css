@@ -7,9 +7,40 @@
 html {
   font-family: monospace;
   font-size: 16px;
+  background-color: rgb(var(--red, 255), var(--green, 105), var(--blue, 188));
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 
 header {
+  margin: 0;
+  padding: 2rem 0.5rem;
   display: flex;
+
   justify-content: space-between;
+  background-color: lightgrey;
+  opacity: 0.8;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+#red {
+  accent-color: red;
+}
+
+#green {
+  accent-color: green;
+}
+
+#blue {
+  accent-color: blue;
 }
