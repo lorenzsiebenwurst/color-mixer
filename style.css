@@ -44,3 +44,9 @@ label {
 #blue {
   accent-color: blue;
 }
+
+button {
+  background-color: snow;
+  border-radius: 5px;
+  font-weight: bold;
+}
